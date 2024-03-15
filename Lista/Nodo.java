@@ -26,6 +26,8 @@ public class Nodo {
         return successivo;
     }
 
+    
+
     public String toString() {
         return "[" + valore + "]";
     }
