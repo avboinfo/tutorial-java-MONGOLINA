@@ -7,6 +7,7 @@ public class Raccolta {
 
     public Raccolta(String file){
         File f = new File(file);
+        lista = new ArrayList<>();
         try{
             Scanner fileInput = new Scanner(f);
 
